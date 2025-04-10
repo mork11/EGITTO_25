@@ -1,0 +1,76 @@
+import streamlit as st
+
+st.set_page_config(page_title="Checklist Viaggio Marsa Alam", page_icon="🧳")
+st.title("🧳 Checklist Viaggio - Marsa Alam 🇪🇬")
+
+with st.expander("📄 Documenti e Viaggio"):
+    st.checkbox("Passaporto (valido almeno 6 mesi)")
+    st.checkbox("Visto d'ingresso")
+    st.checkbox("Biglietti aerei")
+    st.checkbox("Prenotazione hotel/resort")
+    st.checkbox("Assicurazione di viaggio")
+    st.checkbox("Patente subacquea")
+    st.checkbox("Certificato medico per immersioni")
+    st.checkbox("Tessera sanitaria + copertura extra")
+    st.checkbox("Contanti (Euro / Sterline Egiziane)")
+    st.checkbox("Carte di credito / bancomat")
+    st.checkbox("Fotocopie o scansioni documenti")
+
+with st.expander("👕 Abbigliamento"):
+    st.checkbox("Magliette leggere")
+    st.checkbox("Pantaloncini / costumi")
+    st.checkbox("Abiti serali coprenti")
+    st.checkbox("Intimo e calze")
+    st.checkbox("Pigiama")
+    st.checkbox("Ciabatte / sandali")
+    st.checkbox("Scarpe comode")
+    st.checkbox("Cappello / bandana")
+    st.checkbox("Occhiali da sole")
+    st.checkbox("Giacca leggera / K-way")
+
+with st.expander("🧼 Toeletta e Salute"):
+    st.checkbox("Spazzolino e dentifricio")
+    st.checkbox("Shampoo / Bagnoschiuma")
+    st.checkbox("Crema solare")
+    st.checkbox("Doposole")
+    st.checkbox("Repellente insetti")
+    st.checkbox("Salviettine umidificate")
+    st.checkbox("Farmaci personali")
+    st.checkbox("Kit pronto soccorso")
+    st.checkbox("Assorbenti / tamponi")
+
+with st.expander("🐠 Attrezzatura Sub"):
+    st.checkbox("Muta")
+    st.checkbox("GAV")
+    st.checkbox("Erogatore")
+    st.checkbox("Maschera + boccaglio")
+    st.checkbox("Pinne")
+    st.checkbox("Cintura pesi")
+    st.checkbox("Computer subacqueo")
+    st.checkbox("Torcia subacquea")
+    st.checkbox("DSMB / boa segnalazione")
+    st.checkbox("Logbook")
+    st.checkbox("Guanti / calzari")
+    st.checkbox("Tappetino / asciugamano")
+    st.checkbox("Borsa sub")
+    st.checkbox("Kit manutenzione")
+
+with st.expander("📷 Elettronica"):
+    st.checkbox("Reflex + batterie extra")
+    st.checkbox("Obiettivi / filtri")
+    st.checkbox("Caricabatterie reflex")
+    st.checkbox("Schede SD extra")
+    st.checkbox("GoPro + supporti")
+    st.checkbox("Batterie GoPro")
+    st.checkbox("Custodia subacquea GoPro")
+    st.checkbox("Power bank")
+    st.checkbox("Adattatore prese Egitto")
+    st.checkbox("Cuffie")
+    st.checkbox("Telefono + caricabatterie")
+
+with st.expander("🎒 Extra"):
+    st.checkbox("Zaino per escursioni")
+    st.checkbox("Snacks da viaggio")
+    st.checkbox("Mascherina")
+    st.checkbox("Sacchetti indumenti sporchi")
+    st.checkbox("Numeri di emergenza")
