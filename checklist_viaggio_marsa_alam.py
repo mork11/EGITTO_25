@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(page_title="Checklist Viaggio Marsa Alam", page_icon="🧳")
-st.title("🧳 Checklist Viaggio - Marsa Alam 🇪🇬")
+st.title("🧳Checklist Viaggio - Marsa Alam")
 
 with st.expander("📄 Documenti e Viaggio"):
     st.checkbox("Passaporto (valido almeno 6 mesi)")
@@ -15,6 +15,7 @@ with st.expander("📄 Documenti e Viaggio"):
     st.checkbox("Contanti (Euro / Sterline Egiziane)")
     st.checkbox("Carte di credito / bancomat")
     st.checkbox("Fotocopie o scansioni documenti")
+    st.checkbox("PROVA")
 
 with st.expander("👕 Abbigliamento"):
     st.checkbox("Magliette leggere")
